@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 
 const app = express();
-const OPENWEATHER_API_KEY = 'fe0786c857bf16f33939d959825b060f';
+const OPENWEATHER_API_KEY = '';
 
 // Middleware
 app.use(cors({
