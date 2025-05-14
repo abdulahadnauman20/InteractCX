@@ -1,2 +1,18 @@
-.node_modules
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs
+*.log
+
+# Ignore npm debug files
+npm-debug.log*
+
+# Ignore environment files
 .env
+
+# Ignore package-lock files
+package-lock.json
+
+# Ignore system files
+.DS_Store
+Thumbs.db
