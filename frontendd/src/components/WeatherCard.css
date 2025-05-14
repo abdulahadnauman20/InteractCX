@@ -1,0 +1,16 @@
+.weather-card {
+  margin-bottom: 16px;
+  border-radius: 12px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+  max-width: 80%;
+}
+
+.weather-card.user {
+  margin-left: auto;
+  background-color: #e3f2fd !important;
+}
+
+.weather-card.bot {
+  margin-right: auto;
+  background-color: #f5f5f5 !important;
+}
